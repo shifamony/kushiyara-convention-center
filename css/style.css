@@ -35,8 +35,11 @@ a{
 .shadow-1{
     box-shadow: 0 3rem 6rem #D0E1FC;
 }
-.price-wrap:hover{
+.price-wrap{
     transition:all .5s;
+}
+.price-wrap:hover{
+    
     background: #0D6EFD;
     color:#fff;
 }
@@ -50,3 +53,13 @@ a{
 .price-wrap:hover .choose-bt a{
     color:#000 !important;
 }
+/*================= PRICE STYLE END=================*/
+.clients .card{
+    transition: all .5s;
+}
+.clients .card:hover{
+   transform: translateY(-30px);
+}
+
+
+/*================= PRICE STYLE END=================*/
