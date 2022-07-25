@@ -39,9 +39,9 @@ a{
     transition:all .5s;
 }
 .price-wrap:hover{
-    
     background: #0D6EFD;
     color:#fff;
+    box-shadow: 0 3rem 6rem #D0E1FC;
 }
 .price-wrap:hover h3, .price-wrap:hover h4, .price-wrap:hover p{
     color:#fff !important;
