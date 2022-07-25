@@ -5,6 +5,9 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .btns{
     /*text-align: center;
     display: block;
@@ -19,4 +22,31 @@ body{
     width: 280px;
     left: 69%;
     top: -133px;
+}
+.circles-bg{
+    background-color: #ced4da;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.shadow-1{
+    box-shadow: 0 3rem 6rem #D0E1FC;
+}
+.price-wrap:hover{
+    transition:all .5s;
+    background: #0D6EFD;
+    color:#fff;
+}
+.price-wrap:hover h3, .price-wrap:hover h4, .price-wrap:hover p{
+    color:#fff !important;
+}
+.price-wrap:hover .choose-bt{
+    background: #fff !important;
+    color:#000;
+}
+.price-wrap:hover .choose-bt a{
+    color:#000 !important;
 }
